@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora v1.2</title> <!-- título do site -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Calculadora matemática v1.2</h1>
+    <hr>
+    <p>Este html, é capaz de efetuar cálculos
+        simples e com alta eficiência.
+    </p>
+    <p>Adicione abaixo, dois números e depois selecione a operação que deseja realizar.</p>
+    <input type="number" placeholder="0" name="n1" id="n1"><input type="number" placeholder="0" name="n2" id="n2"><br>
+    <div id="soma" class="opera" onclick="somar()" onmouseenter="entrou_soma()" onmouseleave="saiu_soma()">
+        Somar
+    </div><div id="subt" class="opera" onclick="subtrair()" onmouseenter="entrou_subtrair()" onmouseleave="saiu_subtrair()">
+        Subtrair
+    </div><br><div id="mult" class="opera" onclick="multiplicar()" onmouseenter="entrou_multiplicar()" onmouseleave="saiu_multiplicar()">
+        Multiplicar
+    </div><div id="divi" class="opera" onclick="dividir()" onmouseenter="entrou_dividir()" onmouseleave="saiu_dividir()">
+        Dividir
+    </div><br><div id="elev" class="opera" onclick="elevar()" onmouseenter="entrou_elevar()" onmouseleave="saiu_elevar()">
+        Elevar
+    </div><div id="raiz" classe="opera" onclick="raiz1()" onmouseenter="entrou_raiz()" onmouseleave="saiu_raiz()">
+        Raiz ²
+    </div><br><div id="porc" classe="opera" onclick="porcen()" onmouseenter="entrou_porcen()" onmouseleave="saiu_porcen()">
+        Porcento
+    </div><br>
+    <div id="resu" class="res">
+        Resultado
+    </div>
+    <footer>
+        <p id="copyr">&copy; Yago Almeida Pessoa</p>
+        <a href="https://www.instagram.com/yagoap_/" target="_blank">Instagram</a>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

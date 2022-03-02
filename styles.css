@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    border: 1px solid black;
+}
+input#n2 {
+    margin-left: 13px;
+    width: 70px;
+}
+input#n1 {
+    margin-left: 5px;
+    width: 70px;
+}
+div.opera {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: 13px;
+    box-shadow: 10px black;
+    border-radius: 0%;
+    display: inline-block;
+}
+div#resu {
+    background-color: brown;
+    color: white;
+    width: 270px;
+    height: 30px;
+    text-align: center;
+    padding-top: 13px;
+    margin: 13px;
+    box-shadow: 10px black;
+    border-radius: 0%;
+    display: inline-block;
+}
+p#copyr {
+    font-style: italic;
+    margin: 15px;
+}
+div#raiz {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: 13px;
+    box-shadow: 10px black;
+    border-radius: 0%;
+    display: inline-block;
+}
+div#porc {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    margin: 13px;
+    box-shadow: 10px black;
+    border-radius: 0%;
+    display: inline-block;
+}
